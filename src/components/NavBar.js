@@ -1,10 +1,9 @@
-import React from "react";
 
-function NavBar() {
+function NavBar({color}) {
   return (
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
+      <a style={{color}} href="#home">Home</a>
+      <a style={{color}} href="#about">About</a>
     </nav>
   );
 }
